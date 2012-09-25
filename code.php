@@ -14,6 +14,10 @@ bla=bla-bla
 
 class AdverController extends Controller
 {
+	
+	public function jopa () {
+		return new stdClass();
+	}
 	public function addaddressAction()
 	{
 		//$this->_helper->layout()->setLayout('empty');
